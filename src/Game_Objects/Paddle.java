@@ -1,3 +1,5 @@
+package Game_Objects;
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -7,7 +9,7 @@ public class Paddle extends Rectangle{
     int yVelocity;
     int speed = 10;
 
-    Paddle(int x, int y, int PADDLE_WIDTH, int PADDLE_HEIGHT, int id){
+    public Paddle(int x, int y, int PADDLE_WIDTH, int PADDLE_HEIGHT, int id){
         super(x, y, PADDLE_WIDTH, PADDLE_HEIGHT);
         this.id = id;
     }

@@ -1,14 +1,16 @@
+package Game_Objects;
+
 import java.awt.*;
 import java.util.*;
 
 public class Ball extends Rectangle{
 
     Random random;
-    int xVelocity;
-    int yVelocity;
+    public int xVelocity;
+    public int yVelocity;
     int initialSpeed = 2;
 
-    Ball(int x, int y, int width, int height) {
+    public Ball(int x, int y, int width, int height) {
         super(x, y, width, height);
         random = new Random();
 

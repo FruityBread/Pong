@@ -1,13 +1,15 @@
+package Game_Objects;
+
 import java.awt.*;
 
 public class Score extends Rectangle{
 
     static int GAME_WIDTH;
     static int GAME_HEIGHT;
-    int player1;
-    int player2;
+    public int player1;
+    public int player2;
 
-    Score(int GAME_WIDTH, int GAME_HEIGHT){
+    public Score(int GAME_WIDTH, int GAME_HEIGHT){
         Score.GAME_WIDTH = GAME_WIDTH;
         Score.GAME_HEIGHT = GAME_HEIGHT;
     }

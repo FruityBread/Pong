@@ -1,3 +1,6 @@
+package Game_Display;
+
+import Game_Objects.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;

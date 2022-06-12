@@ -1,14 +1,16 @@
+package Game_Display;
+ 
 import java.awt.*;
 import javax.swing.*;
 
-public class MenuFrame extends JFrame{
+public class GameFrame extends JFrame{
 
-    MenuPanel menuPanel;
+    GamePanel panel;
 
-    MenuFrame(){
-        menuPanel = new MenuPanel();
-        this.add(menuPanel);
-        this.setTitle("Pong Menu");
+    public GameFrame(){
+        panel = new GamePanel();
+        this.add(panel);
+        this.setTitle("Pong Game");
         this.setResizable(false);
         this.setBackground(Color.black);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
